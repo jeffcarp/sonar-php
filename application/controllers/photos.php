@@ -37,10 +37,23 @@ class Photos extends CI_Controller {
 	}
 	
 	public function get($id, $width)
-	{
+  {
+    // Testing things out
+
+    // Get photo with id: $id
+    $p = $this->Photo->find_row($id);
+
+    // Redirect to S3 (and cross fingers)
+    // This will simply serve them full-size images, which may screw up the page. We'll find out.
+    header('Location: https://s3.amazonaws.com/thecolbyecho/'.$p->photo_ID.'.'.$p->photo_Extension); 
+
+    exit;
+
+    // old code
+
 		$this->load->helper('thumb');
 				
-		$name = '.'.thumb($id, $width, false);
+		$name = thumb($id, $width, false);
 		
 		$fp = fopen($name, 'rb');
 

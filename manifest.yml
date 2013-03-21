@@ -1,0 +1,17 @@
+---
+applications:
+  .:
+    name: colby-echo
+    framework:
+      name: php
+      info:
+        mem: 128M
+        description: PHP Application
+        exec: 
+    infra: aws
+    url: ${name}.${target-base}
+    mem: 1G
+    instances: 1
+    services:
+      admin:
+        type: mysql

@@ -6,27 +6,20 @@ http://jrtashjian.com/2009/02/image-thumbnail-creation-caching-with-codeigniter/
 
 function thumb($photo_ID, $width, $imgtag = true)
 {
-	$extensions = array(
-		'jpg', 'jpeg', 'png', 'gif', 'JPG', 'JPEG', 'PNG', 'GIF'
-	);
+
+
+  $image_thumb = $image_path;
+
+  if ($imgtag) {
+    return '<img src="'. $image_thumb.'" />';
+  } else {
+    return $image_thumb;
+  }
+
 	
-	foreach ($extensions as $ext):
-	
-		if (file_exists('public/images/application/'.$photo_ID.'.'.$ext)):
-		
-			$image_path = 'public/images/application/'.$photo_ID.'.'.$ext;
-			
-			$extension = $ext;
-			
-			break;
-		
-		endif;
-	
-	endforeach;
-	
-    // Get the CodeIgniter super object
-    $CI =& get_instance();
-	$path = pathinfo($image_path);
+  // Get the CodeIgniter super object
+  $CI =& get_instance();
+  $path = pathinfo($image_path);
 
     // Path to image thumbnail
     $image_thumb = 'public/images/application/thumbs/' . $photo_ID . '_' .$width . '.'.$extension;
