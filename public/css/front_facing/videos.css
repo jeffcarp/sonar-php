@@ -1,0 +1,62 @@
+.primary {
+	padding: 12px 0 0;
+}
+
+.primary .deck {
+	color: black;
+	font-size: 15px;
+	line-height: 22px;
+	margin: 6px 0px 64px;	
+}
+
+.primary .deck p {
+	margin: 0px 0px 16px;
+	font-family: "Georgia", serif;
+}
+
+.primary .deck p a {
+	color: #0B4799;
+}
+
+.primary .deck p a:hover {
+	color: #1064d8;
+}
+
+.primary .deck ul {
+	margin: 0 0 16px 32px;
+}
+
+.primary .deck h1,
+.primary .deck h2,
+.primary .deck h3,
+.primary .deck h4,
+.primary .deck h5,
+.primary .deck h6 {
+	margin: 0px 0px 16px;
+} 
+
+.primary .deck h1 {
+	font-size: 24px;
+}
+
+.primary .deck h2 {
+	font-size: 20px;
+}
+
+.primary .deck h3 {
+	font-size: 16px;
+}
+
+.older {
+	border-top: solid 1px #aaa;
+}
+.older h2 {
+	margin: 1px 0 0;
+	font-size: 16px;
+	color: #333;
+	font-family: "Times", serif;
+	border-top: solid 1px #aaa;
+	border-bottom: solid 1px #aaa;
+	padding: 3px 0 3px;
+	text-align: center;
+}

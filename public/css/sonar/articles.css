@@ -1,0 +1,31 @@
+ul.articles {
+	list-style: none;
+	margin: 0;
+}
+
+.articles li {
+	padding: 8px;
+	border-bottom: solid 1px #ccc;
+}
+
+.articles li h3 a {
+	font-size: 14px;
+	float: left;
+	width: 470px;
+	
+}
+.articles li .published a {
+	color: #000;
+}
+.articles li .draft a {
+	color: #999;
+}
+
+
+.articles li .department {
+	float: right;
+	width: 140px;
+	font-size: 12px;
+	color: #444;
+	margin: 2px 0 0;
+}

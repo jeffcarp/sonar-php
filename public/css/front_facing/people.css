@@ -1,0 +1,61 @@
+.current {
+	text-align: center;
+	padding: 24px 0 24px;
+}
+.current a {
+	font-family: "Georgia", serif;
+}
+.current p {
+	color: #999;
+	font-size: 11px;
+}
+.current .section {
+	margin: 0 0 48px;
+}
+.current .staff {
+	margin: 0 0 18px;
+}
+.editor-in-chief a {
+	font-size: 30px;
+}
+.editor a {
+	font-size: 24px;
+}
+.author a {
+	font-size: 18px;
+}
+
+.past {
+	border-top: solid 1px #aaa;
+}
+.past h2 {
+	margin: 1px 0 0;
+	font-size: 16px;
+	color: #333;
+	font-family: "Times", serif;
+	border-top: solid 1px #aaa;
+	border-bottom: solid 1px #aaa;
+	padding: 3px 0 3px;
+	text-align: center;
+}
+
+/* Profile
+=======================*/
+.profile {
+	padding: 12px 0 12px;
+	border-bottom: solid 1px #ccc;
+}
+.profile img {
+	float: right;
+}
+.profile h1 {
+	font-size: 22px;
+	color: #222;
+}
+.profile p.bio {
+	margin: 10px 0 0;
+}
+.profile ul {
+	margin: 10px 0 0;
+	list-style: none;
+}

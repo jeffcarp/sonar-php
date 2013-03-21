@@ -1,0 +1,351 @@
+/* Christmas
+===================*/
+.christmas {
+	padding: 10px 0;
+	border-bottom: solid 1px #ccc;
+	margin: 0 0 10px;
+}
+.christmas img {
+	float: left;
+}
+.christmas h2 {
+	margin: 0 20px 15px 0;
+	font-size: 26px;
+	font-family: Times, serif;
+	color: #666;
+	font-style: italic;
+}
+.christmas p {
+	font-size: 14px;
+	color: #333;
+}
+.christmas p a {
+	color: #116CE8;
+}
+.christmas p a:hover {
+	color: #3b88f1;
+}
+
+/* Front Page
+======================*/
+
+.frontpage {
+	padding: 12px 12px 0;
+}
+
+aside {
+	width: 300px;
+	float: right;
+}
+
+.cage-north {
+	float: left;
+}
+
+.cage-west {
+	float: left;
+	width: 612px;
+	margin: 24px 0 0;
+}
+
+.topborder1 {
+	background-color: #777;
+	height: 2px;
+}
+
+.topborder2 {
+	background-color: #bbb;
+	height: 1px;
+	margin: 1px 0 0;
+}
+
+.gorilla {
+	float: right;
+	width: 400px;
+	padding: 0 0 0 10px;
+}
+.gorilla h1 {
+	font-size: 24px;
+	font-family: 'Georgia', serif;
+	margin: 6px 0;
+}
+.gorilla p {
+	font-size: 13px;
+	line-height: 18px;
+	color: #333;
+	font-family: 'Georgia', serif;
+	margin: 6px 0;
+}
+.gorilla .photo_byline {
+	color: #aaa;
+	font-size: 10px;
+	text-align: right;
+	font-family: "Helvetica", "Arial", sans-serif;
+	margin: 0;
+	line-height: 12px;
+	display: block;
+}
+
+.gorilla h1 a {
+	color: #116CE8;
+}
+
+.gorilla h1 a:hover {
+	color: #3b88f1;
+	border-bottom: solid 1px #3b88f1;
+}
+
+.howlers {
+	float: left;
+	width: 200px;
+	border-right: solid 1px #ccc;
+}
+.howler:first-child {
+	padding-top: 8px;
+}
+.howler:last-child {
+	border-bottom: none;
+	padding-bottom: 8px;
+}
+.howler {
+	padding: 16px 8px;
+	border-bottom: solid 1px #ccc;
+}
+
+.howler h2 {
+	font-size: 16px;
+	font-family: "Georgia";
+}
+
+.howler a {
+	color: #000;
+}
+
+.howler a:hover {
+	color: #555;
+	border-bottom: solid 1px #555;
+}
+
+.howler p {
+	font-size: 12px;
+	color: #777;
+	margin: 6px 0 0;
+}
+
+/* tamarin is latest issue box
+====================================*/
+
+.tamarin {
+	background-color: #ddd;
+	border: solid 1px #bbb;
+	padding: 12px;
+	border-radius: 6px;
+}
+.tamarin div {
+	padding: 12px 0;
+	border-bottom: solid 1px #aaa;
+	border-top: solid 1px #eee;
+}
+.tamarin div .normal {
+	color: #444;
+	text-shadow: 0px -1px 1px #eee;
+	font-size: 13px;
+	font-style: italic;
+	font-family: 'Georgia', serif;
+}
+.tamarin div:first-child {
+	padding-top: 0;
+	border-top: none;
+}
+.tamarin div .issue {
+	font-family: 'Helvetica' 'Arial', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: #333;
+}
+.tamarin div:last-child {
+	padding-bottom: 0;
+	border-bottom: none;
+}
+.tamarin div .bigtopics {
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Georgia', serif;
+}
+.tamarin div .bigtopics a {
+	margin: 0 0 0 2px;
+}
+
+/* dogfish is new issue display
+======================================*/
+
+.dogfish {
+	width: 612px;
+	margin: 24px 0;
+}
+.dogfish > h2 {
+	border-bottom: solid 3px #888;
+	font-size: 25px;
+}
+.dogfish .left {
+	width: 200px;
+	margin: 12px 0;
+	padding: 0 0 0 6px;
+}
+.dogfish .left h3 a,
+.dogfish .left h4 a {
+	color: #222;
+}
+
+.dogfish .left h3 a:hover,
+.dogfish .left h4 a:hover {
+	color: #444;
+	border-bottom: solid 1px #444;
+}
+.dogfish .left h4 {
+	color: #222;
+	font-size: 13px;
+}
+.dogfish .left h3 {
+	margin: 10px 0 0;
+	font-family: "Georgia";
+	font-size: 22px;
+	
+}
+.dogfish .left p {
+	margin: 10px 0 0;
+	color: #666;
+	font-size: 13px;
+	line-height: 18px;
+}
+.dogfish .left img {
+	margin: 12px 0 0;
+	border: solid 1px #ccc;
+}
+.dogfish .right {
+	width: 374px;
+	margin: 12px 6px 0 0;
+}
+.dogfish .right h4 {
+	color: #222;
+	font-size: 13px;
+	margin: 0 0 12px;
+}
+
+
+/* tikis are center column article lists
+=============================================*/
+.tiki {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 12px;
+	border-top: solid 1px #ccc;
+}
+.tiki li {
+	padding: 8px 0;
+	border-bottom: solid 1px #ccc;
+}
+.tiki li img {
+	float: right;
+}
+.tiki li .text {
+	width: 280px;
+	float: left;
+}
+.tiki li .text h3 {
+	margin: 0 0 2px;
+}
+.tiki li .text h3 a {
+	color: #333;
+	font-family: "Georgia", serif;
+	font-size: 14px;
+}
+.tiki li .text h3 a:hover {
+	color: #666;
+}
+.tiki li .text span {
+	font-size: 11px;
+}
+.tiki li .text span a {
+	color: #777;
+}
+.tiki li .text span a:hover {
+	color: #aaa;
+}
+
+/* bonito is sidebar opinion
+=================================*/
+.bonito {
+	margin: 0 0 12px;
+	padding: 12px 12px 6px;
+	border: solid 1px #bbb;
+	background-color: #ddd;
+}
+.bonito h2 a {
+	font-size: 14px;
+	font-family: 'Georgia', serif;
+}
+.bonito ul {
+	margin: 12px 0 0;
+	border-top: solid 1px #bbb;
+}
+.bonito li {
+	padding: 12px 0;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #bbb;
+}
+.bonito li:first-child {
+
+}
+.bonito li:last-child {
+	border-bottom: none;
+}
+.bonito li img {
+	float: right;
+}
+.bonito .text {
+	width: 200px;
+}
+.bonito .text h4 a {
+	color: #111;
+	font-size: 14px;
+	font-family: 'Georgia', serif;
+}
+.bonito .text h4 a:hover {
+	color: #444;
+}
+.bonito .text span a {
+	color: #666;
+}
+.bonito .text span a:hover {
+	color: #999;
+}
+
+/* Dorm Damage Blog Link
+=================================*/
+#dormdamage {
+	background-color: #942415;
+	padding: 10px;
+	border-radius: 4px;
+	border: solid 1px #ea7869;
+	font-family: Georgia, serif;
+}
+#dormdamage:hover {
+	background-color: #b22b19;
+}
+#dormdamage_wrap {
+	border-radius: 4px;
+	border: solid 1px #1d0704;
+	margin: 0 0 10px;
+}
+#dormdamage h2 {
+	font-size: 20px;
+	color: white;
+	text-shadow: 0 -1px 1px #59160d;
+}
+#dormdamage p {
+	margin: 5px 0 0;
+	color: white;
+	font-size: 12px;
+}

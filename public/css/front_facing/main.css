@@ -1,0 +1,348 @@
+body {
+	background-color: #ddd;
+}
+
+/*=================================================||==GLOBAL-LAYOUT==||=*/
+
+
+.ocean {
+	/* padding-bottom: 250px;  for the footer */
+}
+
+.continent {
+	width: 945px;	
+	margin: 0 auto 40px;
+	padding: 0 0 20px;
+	background-color: #fff;
+	-moz-box-shadow: 0 4px 5px #333;
+	-webkit-box-shadow: 0 4px 5px #333;
+	box-shadow: 0 4px 5px #333;
+}
+
+.main {
+	padding: 12px;
+}
+
+a.blue {
+	color: #0B4799;
+}
+a.blue:hover {
+	color: #1064D8
+}
+
+a.black {
+	color: black;
+}
+a.black:hover {
+	color: #333
+}
+
+/*=================================================||==PAGINATION==||=*/
+
+.content {
+	width: 613px;
+	border-top: solid 1px #555;
+	float: left;
+}
+
+/*=================================================||==HEADERS==||=*/
+
+.department-header {
+	border-top: solid 4px #0D4A95;
+	margin: 20px 0 0;
+	padding: 12px 0 24px 16px;
+}
+
+.department-header h1 {
+	font-family: Helvetica-Neue, Helvetica, Arial, sans-serif;
+	color: #000;
+	font-size: 27px;
+	text-align: left;
+}
+
+.department-header h2 {
+	font-weight: normal;
+	font-size: 12px;
+	text-align: left;
+}
+
+.department-header h2 a {
+	color: #0D4A95;
+}
+
+.department-header h2 a:hover{
+	border-bottom: 1px dotted #1269D3;
+	color: #1269D3;
+}
+
+.department-header .tag {
+	
+}
+
+/*=================================================||==SIDEBAR==||=*/
+
+aside {
+	width: 300px;
+	float: right;
+}
+
+aside .sidebar {
+	padding: 4px;
+	border: solid 1px #ccc;
+	margin: 0 0 12px;
+}
+
+/* featured is featured sidebar
+=====================================*/
+
+aside .featured {
+	padding: 0;
+}
+aside .featured h3 {
+	font-family: "Helvetica-Neue", "Helvetica", "Arial" sans-serif;
+	font-size: 24px;
+	margin: 6px;
+	line-height: 25px;
+	letter-spacing: -1px;
+}
+aside .featured p {
+	font-family: "Georgia", serif;
+	color: #444;
+	font-size: 13px;
+	line-height: 17px;
+	margin: 0 6px 8px;
+}
+
+/* capuchin is Bubble sidebar
+=====================================*/
+.capuchin {
+	background: #555b5f;
+	margin: 0 0 12px;
+}
+.capuchin .upper {
+	padding: 6px 8px 8px;
+}
+.capuchin .upper h3 {
+	color: white;
+	font-family: "Times", "Times New Roman", serif;
+	width: 110px;
+	font-size: 22px;
+	display: inline;
+	margin: 2px 0 0;
+	text-shadow: 0 1px 2px #333;
+}
+.capuchin .upper:hover {
+	background-color: #656c71;
+	cursor: pointer;
+	-webkit-transition: linear .1s;
+   	transition: linear .1s;
+}
+.capuchin .upper span {
+	color: #eee;
+	position: relative;
+	top: 0px;
+	left: 15px;
+}
+.capuchin ul {
+	-moz-box-shadow: 0px -1px 5px #000;
+	-webkit-box-shadow: 0px -1px 5px #000;
+	box-shadow: 0px -1px 5px #000;
+	list-style: none;
+	margin: 0;
+	border-top: 1px solid #333;
+}
+.capuchin li {
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #333;
+	padding: 10px;
+}
+.capuchin li:last-child {
+	border-bottom: none;
+}
+.capuchin .text {
+	float: right;
+	width: 220px;
+}
+.capuchin .text h4 a {
+	color: white;
+	font-size: 15px;
+	font-family: "Times", "Georgia", sans-serif;
+}
+.capuchin .text h4 a:hover {
+	color: #ddd;
+	border-bottom: solid 1px #ddd;
+}
+.capuchin .text p a {
+	color: #aaa;
+}
+.capuchin .text p a:hover {
+	color: #888;
+}
+.capuchin img {
+	float: left;
+	margin: 0 6px 0 0;
+}
+
+/* mako is general-use article list
+=================================================*/
+
+.mako {
+	padding: 24px 0;
+	border-bottom: solid 1px #ddd;
+	min-height: 70px;
+	font-family: "Georgia", serif;
+}
+.mako h4 {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 11px;
+	margin: 0 0 6px;
+}
+.mako h4 a {
+	color: #111;
+}
+.mako h4 a:hover {
+	color: #444;
+}
+.mako .text {
+	width: 443px;
+}
+.mako h3 {
+	font-size: 20px;
+	margin: 0 0 6px;
+}
+.mako .byline {
+	font-size: 11px;
+	color: #888;
+	margin: 0 0 5px;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.mako .byline a {
+	color: #0a4089;
+}
+.mako .byline a:hover {
+	color: #0d56b8;	
+}
+.mako p {
+	color: #111;
+	font-size: 13px;
+	line-height: 18px;
+}
+.mako img {
+	float: right;
+}
+
+/* rhesus is Department article list
+=================================================*/
+
+.rhesus {
+	padding: 12px 0;
+	border-bottom: solid 1px #ddd;
+	min-height: 125px;
+}
+.rhesus h2 {
+	font-size: 18px;
+	font-family: "Georgia", serif;
+}
+.rhesus img {
+	float: right;
+	margin: 0 6px 0 8px;
+}
+.rhesus .byline {
+	font-size: 12px;
+	margin: 6px 0 8px;
+}
+.rhesus .deck {
+	font-size: 13px;
+	color: #111;
+	line-height: 18px;
+	width: 410px;
+}
+
+/* roloway is Department Older article list
+=================================================*/
+
+.roloway {
+	padding: 8px 0 8px;
+	border-bottom: solid 1px #ddd;
+}
+.roloway h3 {
+	font-size: 14px;
+	font-family: "Georgia", serif;
+}
+.roloway img {
+	float: right;
+}
+.roloway .byline {
+	font-size: 12px;
+	margin: 3px 0 3px;
+}
+.roloway .deck {
+	font-size: 13px;
+	color: #222;
+	line-height: 18px;
+}
+
+/* take a random guess
+=================================================*/
+
+.topic {
+	background-color: #116be8;
+	color: white;
+	border-bottom: solid 1px #093879;
+	border-left: solid 1px #093879;
+	border-right: solid 1px #093879;
+	padding: 2px 4px;
+	font-weight: bold;
+	border-radius: 6px;
+	white-space: nowrap;
+}
+a.topic {
+	color: white;
+	text-shadow: 0 -1px 1px #555;
+}
+a.topic:hover {
+	background-color: #2c7eef;
+}
+.topic.medium {
+	font-size: 13px;
+}
+.topic.big {
+	
+}
+
+/* tiger is sidebar about/contact
+=================================*/
+.tiger {
+	margin: 0 0 12px;
+	border-top: solid 1px #ccc;
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+	border-bottom: solid 5px #ccc;
+	background-color: #eee;
+}
+.tiger ul {
+	list-style: none;
+	margin: 0;
+}
+.tiger li {
+	border-bottom: solid 1px #ccc;
+}
+.tiger li a {
+	padding: 12px;
+	display: block;
+	color: #444;
+	font-size: 14px;
+}
+.tiger li a:hover {
+	background-color: #fff;
+}
+
+
+.social_button {
+	margin: 4px 0;
+	padding: 6px 0 4px;
+	border-bottom: solid 1px #eee;
+}
+.floater-topics {
+	margin: 12px 0 0;
+}

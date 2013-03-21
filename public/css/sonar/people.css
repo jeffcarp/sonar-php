@@ -1,0 +1,17 @@
+.mosaic {
+
+}
+.mosaic .tile {
+	float: left;
+	width: 105px;
+	height: 100px;
+}
+.mosaic .tile:hover {
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+.section {
+	border-top: solid 1px #ccc;
+	margin: 24px 0 0;
+}

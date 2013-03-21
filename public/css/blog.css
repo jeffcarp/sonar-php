@@ -1,0 +1,349 @@
+body {
+}
+#content {
+	width: 945px;	
+	margin: 0 auto 40px;
+	padding: 30px 0;
+}
+#main {
+	float: left;
+	width: 604px;
+	padding: 0 20px 0 0;
+	border-right: solid 1px #ccc;
+}
+aside {
+	float: right;
+	width: 300px;
+}
+
+aside .sidebar {
+	border: solid 1px #ccc;
+	padding: 4px;
+	margin: 0 0 10px;
+}
+
+/* Channel
+=======================*/
+#channel {
+  margin: 0 0 20px;
+}
+#channel ul {
+  border-top: solid 1px #999;
+  border-bottom: solid 1px #999;
+  list-style: none;
+  padding: 5px 0;
+  margin: 0;
+}
+#channel li {
+  padding: 0 10px 0 0;
+  display: inline;
+}
+#channel li a {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #111;
+  font-size: 13px;
+  font-weight: bold;
+}
+#channel li a:hover {
+  color: #555;
+}
+
+/* Damage Meter
+=======================*/
+aside .meter {
+	border-radius: 4px;
+	padding: 5px 10px 10px;
+	background-color: #942415;
+	border-radius: 4px;
+	border: solid 1px #ea7869;
+	font-family: Georgia, serif;
+}
+aside .meter_wrap {
+	border-radius: 4px;
+	border: solid 1px #1d0704;
+	margin: 0 0 10px;
+}
+aside .meter .thedamage {
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+	text-shadow: 0 -1px 1px #59160d;
+	font-family: "Palatino", serif;
+}
+aside .meter p {
+	color: white;
+	font-size: 13px;
+}
+
+aside .submit {
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	margin: 10px 0;
+	padding: 20px 0;
+	font-family: Georgia, serif;
+}
+aside .submit h3 {
+	font-size: 18px;
+	color: #333;
+	margin: 0 0 10px;
+}
+aside .submit p {
+	font-size: 13px;
+	line-height: 18px;
+	color: #222;
+}
+
+aside .authors {
+	border-top: solid 1px #ccc;
+	margin: 10px 0 0;
+	padding: 20px 0 10px;
+	font-family: Georgia, serif;
+}
+aside .authors h3 {
+	font-size: 18px;
+	color: #333;
+	margin: 0 0 10px;
+}
+aside .authors .author {
+  border-bottom: solid 1px #eee;
+  margin: 0 0 10px;
+  padding: 0 0 8px;
+}
+aside .authors img {
+  float: left;
+}
+aside .authors .info {
+  float: right;
+  width: 210px;
+}
+aside .authors .info h3 a {
+  color: #222;
+  font-size: 14px;
+}
+aside .authors .info h3 a:hover {
+  color: #444;
+}
+
+aside .links {
+	border-top: solid 1px #ccc;
+	margin: 10px 0;
+	padding: 20px 0;
+	font-family: Georgia, serif;
+}
+aside .links h3 {
+	font-size: 18px;
+	color: #333;
+	margin: 0 0 10px;
+}
+
+/* Teasers
+======================*/
+.teaser {
+	border-bottom: solid 1px #ccc;
+	padding: 20px 0;
+}
+.teaser:first-child {
+	padding: 0 0 20px;
+}
+.teaser .thumb { 
+	float: left; 
+	margin: 0 20px 0 0;
+}
+.teaser:nth-child(even) .thumb { 
+	margin: 0 0 0 20px;
+	float: right; 
+}
+.teaser h1 {
+	margin: 0 0 5px;
+}
+.teaser h1.headline a {
+	font-size: 26px;
+	color: #282828;
+	font-family: 'Times', serif;
+}
+.teaser h1.headline a:hover {
+	color: #555;
+}
+.teaser .byline {
+	font-size: 11px;
+	color: #999;
+	font-style: italic;
+	margin: 0 0 10px;
+}
+.teaser .byline a {
+	color: #555;
+}
+.teaser .byline a:hover {
+	color: #1064D8
+}
+.teaser .deck {
+	color: #222;
+	font-size: 13px;
+	line-height: 20px;
+	font-family: 'Georgia', serif;
+}
+.teaser .deck a {
+  color: #0A4089;
+}
+.teaser .deck a:hover {
+  color: #0c4fa9;
+}
+
+/* Article
+======================*/
+article {
+	border-bottom: solid 6px #eaeaea;
+	margin: 0 0 40px;
+	font-family: "Georgia", serif;
+}
+article h1 {
+	margin: 0 0 6px;
+}
+article h1.headline a {
+	font-size: 38px;
+	color: #282828;
+	line-height: 38px;
+	letter-spacing: -1px;
+	word-spacing: -1px;
+	font-family: Times;
+}
+article h1.headline a:hover {
+	color: #555;
+}
+article .byline {
+	font-size: 13px;
+	color: #bbb;
+	font-style: italic;
+}
+article .byline a {
+	color: #555;
+}
+article .byline a:hover {
+	color: #1064D8
+}
+article .social {
+	border-top: solid 1px #dadada;
+	border-bottom: solid 1px #dadada;
+	padding: 6px 0 3px;
+	margin: 20px 0;
+}
+article .byline img {
+	margin: 4px 8px 2px 0;
+	border: solid 1px #ccc;
+	float: left;
+}
+article .byline .bigline {
+	padding: 3px 0 0;
+	float: left;
+}
+article .byline .bigline .line {
+	padding: 0 0 1px;
+}
+article .byline .social_button {
+	float: right;
+	padding: 6px 0 0;
+}
+article .copy img.teaser {
+	float: right;
+	margin: 0 0 12px 10px;
+}
+.post .copy.excerpt img:not(.teaser) {
+}
+article .copy img.small {
+	margin: 10px;
+}
+article .copy {
+	color: black;
+	font-size: 15px;
+	line-height: 22px;
+	margin: 18px 0 30px;
+}
+article .copy > p {
+	margin: 0px 0px 16px;
+}
+article .copy p a {
+	color: #0B4799;
+}
+
+article .copy p a:hover {
+	color: #1064d8;
+	border-bottom: solid 1px #1064d8;
+}
+article .copy ul {
+	margin: 0 0 16px 32px;
+}
+article .copy h2,
+article .copy h3,
+article .copy h4 {
+	margin: 0px 0px 16px;
+} 
+article .copy h2 {
+	font-size: 24px;
+}
+article .copy h3 {
+	font-size: 20px;
+}
+article .copy h4 {
+	font-size: 16px;
+}
+article .copy img.right {
+	float: right;
+	margin: 0 0 0 8px;
+}
+article .copy img.left {
+	float: left;
+	margin: 0 8px 0 0;
+}
+article .copy blockquote {
+	background-color: #eee;
+	padding: 16px;
+	margin: 0 24px 16px;
+}
+article .copy a.readon {
+	font-size: 14px;
+	color: #0B4799;
+	font-weight: bold;
+	word-spacing: -1px;
+}
+article .copy a.readon:hover {
+	color: #1064D8;
+}
+
+/* Pagination
+================================*/
+.pagination {
+	border-top: dotted 1px #aaa;
+	border-bottom: dotted 1px #aaa;
+	float: left;
+	margin: 60px 0 0px;
+	padding: 20px 200px;
+}
+.nav {
+  width: 545px;
+  margin: 0 auto;
+}
+
+.pagination .previous,
+.pagination .next,
+.pagination .home {
+	font-size: 16px;
+	color: #222;
+	font-family: "Lucida Grande", "Arial", sans-serif;
+}
+
+.pagination .previous:hover,
+.pagination .next:hover,
+.pagination .home:hover {
+	color: #555;
+}
+.pagination .previous {
+	float: left;
+}
+
+.pagination .next {
+	float: right;
+}
+.pagination .home {
+	display: block;
+	text-align: center;
+}

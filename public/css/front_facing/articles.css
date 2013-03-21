@@ -1,0 +1,276 @@
+/*========================================
+File:  			public/css/articles.css
+Build:  		Mission
+Controller:		articles
+========================================*/
+
+.publication {
+	padding: 0 12px 0;
+}
+
+.publication .headline {
+	font-size: 24px;
+	line-height: 26px;
+	color: #0b4799;
+	margin: 14px 0 0;
+	font-family: "Georgia", serif;
+	font-weight: normal;
+}
+
+.publication .byline {
+	font-family: "Helvetica-Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 11px;
+	margin: 6px 0 14px;
+	color: #777;
+}
+
+.publication .byline a {
+	color: #000;	
+}
+
+.publication .byline a:hover {
+	color: #444;	
+}
+
+.publication .photo {
+ 
+}
+
+.publication .photo_byline {
+	font-family: "Helvetica-Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 11px;
+	margin: 0 0 2px;
+	color: #777;
+	text-align: right;
+}
+
+.freyr .portrait {
+	width: 260px;
+	float: right;
+	margin: 8px 0 0 5px;
+}
+
+.freyr .credit {
+	font-family: "Helvetica-Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 9px;
+	line-height: 10px;
+	color: #888;
+	text-align: right;
+}
+
+.freyr .caption {
+	font-family: "Helvetica-Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	color: #222;
+}
+
+.publication .copy {
+	color: black;
+	font-size: 15px;
+	line-height: 22px;
+	margin: 18px 0 30px;
+	font-family: "Georgia", serif;	
+}
+.publication .copy p {
+	margin: 0px 0px 16px;
+}
+.publication .copy p a {
+	color: #1064d8;
+	border-bottom: solid 1px #1064d8;
+}
+.publication .copy p a:hover {
+	color: #0B4799;
+
+}
+
+.publication .copy ul {
+	margin: 0 0 16px 32px;
+}
+
+.publication .copy h1,
+.publication .copy h2,
+.publication .copy h3,
+.publication .copy h4,
+.publication .copy h5,
+.publication .copy h6 {
+	margin: 0px 0px 16px;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+} 
+
+.publication .copy h1 {
+	font-size: 24px;
+}
+
+.publication .copy h2 {
+	font-size: 20px;
+}
+
+.publication .copy h3 {
+	font-size: 16px;
+}
+.publication .copy table {
+	margin: 0 0 16px;
+	width: 100%;
+}
+.publication .copy table td {
+	padding: 16px;
+}
+.publication .copy table tr:nth-child(odd) {
+	background-color: #ccc;
+}
+.publication .copy table tr:nth-child(even) {
+	background-color: #ddd;
+}
+
+.publication .copy .floater {
+	border-left: 1px solid #CCC;
+	float: right;
+	margin: 4px 0px 12px 16px;
+	padding: 0 0 6px 16px;
+	width: 200px;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.publication .copy .floater h5 a {
+	color: #333;	
+}
+
+.publication .copy .floater h5 a:hover {
+	color: #777;	
+}
+
+.publication .copy .floater ul {
+	list-style: none;
+	margin: 12px 0 0;
+}
+
+.publication .copy .floater li {
+	border-bottom: solid 1px #ccc;
+	padding: 12px 0 12px;
+}
+
+.publication .copy .floater li:first-child {
+	padding: 0 0 12px;
+}
+
+.publication .copy .floater li:last-child {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.publication .copy .floater li .f_headline {
+	font-size: 13px;
+	display: block;
+	line-height: 16px;
+}
+
+.publication .copy .floater li .f_headline a {
+	color: #555;
+	font-weight: bold;
+}
+
+.publication .copy .floater li .f_byline {
+	font-size: 10px;
+	display: block;
+	color: #999;
+}
+
+.publication .copy .floater li .f_byline a {
+	color: #555;
+}
+
+.publication .copy .floater .images {
+	margin: 12px 0 0;
+	border-top: solid 1px #ccc;
+	padding: 12px 0 0;
+}
+
+.publication .copy .floater .images img {
+	border: solid 1px #ccc;
+	margin: 0 0 12px;
+}
+
+/* End Box
+===========================*/
+
+.end_box {
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	margin: 18px 0;
+	padding: 12px 0;
+}
+
+.end_box .author {
+	float: left;
+	padding: 0 12px 0 0;
+	width: 180px;
+	border-right: solid 1px #ccc;
+}
+.end_box .author h3.name {
+	margin: 0;
+}
+.end_box .author h3.name a {
+	color: #116CE8;	
+}
+.end_box .author h3.name a:hover {
+	color: #8AB8F6;	
+}
+.end_box .author img {
+	border: solid 1px #aaa;
+	margin: 6px 0;
+}
+.end_box .author .position {
+	color: #666;
+	font-family: "Helvetica-Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 11px;
+}
+.end_box .author .bio {
+	color: #666;
+	font-family: "Georgia", serif;
+	font-size: 13px;
+	line-height: 19px;
+}
+
+.end_box .related {
+	float: right;
+	width: 410px;
+}
+.end_box .related ul {
+	list-style: none;
+	margin: 0;
+}
+.end_box .related ul li {
+	border-bottom: solid 1px #ccc;
+	padding: 12px 0;
+}
+
+.end_box .related ul li:first-child {
+	padding: 0 0 12px;
+}
+
+.end_box .related ul li:last-child {
+	border-bottom: none;
+	padding: 12px 0 0;
+}
+.end_box .related h5 {
+	margin: 0;
+	font-size: 15px;
+	font-family: 'Georgia', sans-serif;
+}
+.end_box .related h5 a {
+	color: #333;
+}
+.end_box .related h5 a:hover {
+	color: #666;
+}
+.end_box .related_byline a {
+	color: #666;
+}
+.end_box .related_byline a:hover {
+	color: #999;
+}
+.end_box .related_byline {
+	font-size: 12px;
+	color: #999;
+}

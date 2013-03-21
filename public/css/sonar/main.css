@@ -1,0 +1,395 @@
+html {
+	background-color: #222;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/*======================================================*/
+
+.continent {
+	margin: 32px auto;		width: 800px;
+	border: solid 1px #999;
+	border-radius: 8px;
+}
+
+.continent-inner {
+	background-color: #ddf1ff;
+	border: solid 1px #fff;
+	border-radius: 8px;
+}
+
+.paper {
+	background-color: #fff;
+	margin: 6px 6px 12px;
+	width: 630px;
+	-webkit-box-shadow: 0px 0px 4px #777;
+	-moz-box-shadow: 0px 0px 4px #777;
+	float: left;
+}
+
+aside {
+	float: right;
+	width: 144px;
+	padding: 6px;
+}
+
+aside .rule {
+	border-top: solid 1px #eef8ff;
+	border-bottom: solid 1px #bbe3ff;
+	margin: 6px 0 6px;
+}
+
+aside ul {
+	margin: 0;
+	list-style: none;
+}
+
+aside li:first-child {
+	font-weight: bold;
+	margin: 8px 0 4px;
+	font-size: 16px;
+}
+
+aside a,
+aside a:active,
+aside a:visited {
+	color: #333;
+}
+
+aside a:hover {
+	color: #555;
+}
+
+/*======================================================*/
+
+.plate {
+	margin: 0 0 16px;
+	padding: 0 0 16px;
+	border-bottom: solid 1px #ccc;
+}
+
+/*======================================================*/
+
+header {
+	border-bottom: solid 1px #005b99;		
+	border-top: solid 1px #44b3ff;
+	-webkit-box-shadow: 0 2px 3px #000;
+	-moz-box-shadow: 0 2px 3px #000;
+	box-shadow: 0 2px 3px #000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#119fff), to(#0070bb));
+	background: -moz-linear-gradient(top,  #119fff,  #0070bb);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#119fff', endColorstr='#0070bb');
+}
+
+header .inner {
+	width: 800px;			
+	margin: 0 auto 0; 
+}
+
+header h1 {
+	margin: 1px 0;
+	float: left;
+	font-size: 30px;
+	letter-spacing: -1px;		
+	word-spacing: -1px;
+}
+
+header h5 {
+	float: left;
+	font-size: 10px;
+	margin: 14px 0 0 16px;
+}
+
+header a,
+header a:active,
+header a:visited {
+	color: #333;
+	text-shadow: 0px 1px 1px #33adff;
+}
+header a:hover {
+	color: #666;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 11px 0 0;
+}
+
+nav ul li {
+	margin: 0 0 0 24px;
+	display: inline;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+nav a {
+	padding: 10px 0;
+}
+
+/*======================================================*/
+
+
+.edit {
+	padding: 12px;
+}
+
+.edit .headline {
+	font-size: 24px;
+	width: 600px;
+}
+
+.edit .deck textarea {
+	font-size: 14px;
+	width: 588px;
+	height: 100px;
+	color: black;
+	padding: 6px;
+	font-family: "Monaco", "Courier New", "Courier", monospace;
+}
+
+.edit .copy textarea {
+	font-size: 14px;
+	width: 588px;
+	min-height: 400px;
+	color: black;
+	padding: 6px;
+	font-family: "Monaco", "Courier New", "Courier", monospace;
+}
+
+.edit .photo {
+	margin: 0 0 12px;
+}
+
+.edit .island {
+	float: right;
+	width: 100px;
+}
+
+/*======================================================*/
+
+.light {
+	color: #999;
+}
+
+/*======================================================*/
+
+button.minimal:hover {
+	-webkit-box-shadow: #EAEAEA 0px 0px 1px 1px inset;
+	background: #D9D9D9;
+	color: #222;
+	cursor: pointer;
+}
+
+button.minimal {
+	-webkit-box-shadow: #F6F6F6 0px 0px 1px 1px inset;
+	background: #E3E3E3;
+	border: 1px solid #BBB;
+	border-bottom-left-radius: 3px 3px;
+	border-bottom-left-radius: 3px 3px;
+	border-bottom-right-radius: 3px 3px;
+	border-bottom-right-radius: 3px 3px;
+	border-top-left-radius: 3px 3px;
+	border-top-left-radius: 3px 3px;
+	border-top-right-radius: 3px 3px;
+	border-top-right-radius: 3px 3px;
+	color: #333;
+	font-family: 'helvetica neue', helvetica, arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1;
+	padding: 8px 0px 9px;
+	text-align: center;
+	text-shadow: white 0px 1px 0px;
+	width: 150px;
+}
+
+
+.topicadd {
+	display: none;
+}
+
+.neue {
+	padding: 12px;
+}
+
+/* Gibbon is minimalistic list
+==============================================*/
+
+ul.gibbon {
+	list-style: none;
+	margin: 0;
+}
+
+.gibbon.canopy {
+	margin: 24px 0 0;
+	border-top: solid 1px #ccc;
+}
+
+.gibbon li {
+	padding: 8px;
+	border-bottom: solid 1px #ccc;
+}
+
+.gibbon li h3 a {
+	color: #222;
+	font-size: 14px;
+}
+.gibbon li h3 a:hover {
+	color: #444;
+}
+.gibbon li .published a {
+	color: #000;
+}
+.gibbon li .draft a {
+	color: #999;
+}
+
+.gibbon h5 {
+	color: #777;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.gibbon li p {
+	font-size: 10px;
+	color: #999;
+}
+
+.gibbon li .pocket_1 {
+	width: 430px;
+	float: left;
+}
+
+.gibbon li .pocket_2 {
+	width: 60px;
+	float: left;
+	font-size: 11px;
+	padding: 9px 0 0;
+	color: black;
+	text-align: center;
+}
+
+.gibbon li .pocket_3 {
+	width: 60px;
+	float: left;
+	font-size: 11px;
+	padding: 9px 0 0;
+	color: black;
+	text-align: center;
+}
+
+.gibbon li .pocket_4 {
+	width: 60px;
+	float: left;
+	font-size: 11px;
+	padding: 9px 0 0;
+	text-align: center;
+}
+
+.gibbon li .north {
+	color: red;
+}
+
+/* Vervet is standard Sonar form
+==============================================*/
+
+.vervet {
+
+}
+
+.vervet h3 {
+	font-size: 16px;
+	margin: 2px 0 6px;
+}
+
+.vervet > section {
+	background-color: #fad067;
+	padding: 12px;
+}
+
+.vervet > section h1 {
+	font-size: 24px;
+	margin: 0 0 8px;
+	color: #555;
+}
+
+.vervet > section ul {
+	margin: 12px 0 12px 20px;
+	font-size: 13px;
+	color: #222;
+}
+
+.vervet > .shadow {
+	height: 1px;
+	position: relative;
+	top: 1px;
+	-webkit-box-shadow: 0px -3px 4px #000;
+}
+
+.vervet form {
+	padding: 12px 0 0;
+}
+
+.vervet form section {
+	margin: 0 0 16px;
+	padding: 0 12px 16px;
+	border-bottom: solid 1px #ccc;
+}
+
+.vervet form section input[type=text],
+.vervet form section textarea {
+	width: 400px;
+	font-size: 14px;
+	color: #444;
+	padding: 2px;
+}
+
+.vervet form section input.headline {
+	font-size: 24px;
+	width: 550px;
+}
+
+/* More headlines
+==============================================*/
+
+h2.bengal {
+	font-size: 16px;
+	margin: 36px 6px 0;
+}
+
+.save-button {
+	float: right;
+	margin: 5px 0 0 20px;
+	color: #fff;
+	font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	line-height: 1;
+	padding: 7px 35px 8px;
+	text-align: center;
+	text-shadow: 0 1px 1px #666;
+	border: 1px solid #63a62f;
+	border-bottom: 1px solid #008fee;
+	border-top: 1px solid #000a11;
+	border-left: 1px solid #008fee;
+	border-right: 1px solid #008fee;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 4px;
+	background-color: #222;
+}
+
+section.paper.health h2 {
+	margin: 10px;
+	font-size: 24px;
+}
+section.paper.health iframe {
+	margin: 10px;
+}

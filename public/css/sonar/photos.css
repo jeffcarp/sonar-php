@@ -1,0 +1,16 @@
+.mosaic {
+
+}
+.mosaic .tile {
+	float: left;
+	width: 105px;
+	height: 100px;
+}
+.mosaic .tile:hover {
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+.neue {
+	padding: 12px;
+}

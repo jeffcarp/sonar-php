@@ -1,0 +1,1 @@
+<p style="padding: 30px; font-size: 15px;">Sorry, the page you're looking for isn't here. It's probably a problem on our end. If you <a href="mailto:tech@thecolbyecho.com" class="blue">let us know</a> we'll do our best to fix it.</p>
