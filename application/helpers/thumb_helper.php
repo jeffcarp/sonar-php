@@ -6,53 +6,54 @@ http://jrtashjian.com/2009/02/image-thumbnail-creation-caching-with-codeigniter/
 
 function thumb($photo_ID, $width, $imgtag = true)
 {
-
-
-  $image_thumb = $image_path;
-
-  if ($imgtag) {
-    return '<img src="'. $image_thumb.'" />';
-  } else {
-    return $image_thumb;
-  }
-
-	
   // Get the CodeIgniter super object
   $CI =& get_instance();
-  $path = pathinfo($image_path);
+  $CI->load->model('photo');
+  $CI->load->library('S3/s3');
 
-    // Path to image thumbnail
-    $image_thumb = 'public/images/application/thumbs/' . $photo_ID . '_' .$width . '.'.$extension;
+  $p = $CI->Photo->find_row($photo_ID);
+  $orig_s3_path = 'https://s3.amazonaws.com/thecolbyecho/'.$p->photo_ID.'.'.$p->photo_Extension;
+  $thumb_s3_path = 'https://s3.amazonaws.com/thecolbyecho/'.$p->photo_ID.'_'.$width.'.'.$p->photo_Extension;
+  $thumb_path = 'public/images/thumbs/' . $p->photo_ID . '_' .$width . '.'.$p->photo_Extension;
+  $orig_path = 'public/images/originals/'.$p->photo_ID.'.'.$p->photo_Extension;
 
-    if( ! file_exists($image_thumb))
-    {
-        // LOAD LIBRARY
-        $CI->load->library('image_lib');
+  // TODO: check if s3 image exists before making thumb 
+  $headers = get_headers($thumb_s3_path, 1);
 
-        // CONFIGURE IMAGE LIBRARY
-        $config['image_library']    = 'gd2';
-        $config['source_image']     = $image_path;
-        $config['new_image']        = $image_thumb;
-        $config['maintain_ratio']   = TRUE;
-        $config['height']           = 10000; // requires height but does not use it
-        $config['width']            = $width;
+  if (strpos($headers[0], "403") !== false) {
 
-        $CI->image_lib->initialize($config);
-        $CI->image_lib->resize();
-        $CI->image_lib->clear();
+    // Download file locally for resizing
+    copy($orig_s3_path, $orig_path);
+
+    $CI->load->library('image_lib');
+
+    $config['image_library']    = 'gd2';
+    $config['source_image']     = $orig_path;
+    $config['new_image']        = $thumb_path;
+    $config['maintain_ratio']   = TRUE;
+    $config['height']           = 10000; // requires height but does not use it
+    $config['width']            = $width;
+
+    $CI->image_lib->initialize($config);
+    $CI->image_lib->resize();
+    $CI->image_lib->clear();
         
-        //show_error($CI->image_lib->display_errors());
+    //show_error($CI->image_lib->display_errors());
+    // Write file back to S3
 
-    }
+    // Push thumb to S3
+    $s3 = new S3(getenv('AWS_KEY'), getenv('AWS_SECRET'));
+   
+    $thumb_upload_name = $p->photo_ID . '_' .$width . '.'.$p->photo_Extension;
+    
+    $s3->putObject($s3->inputResource(fopen($thumb_path, 'rb'), filesize($thumb_path)), 'thecolbyecho', $thumb_upload_name, S3::ACL_PUBLIC_READ);
 
-	$image_thumb = '/'.$image_thumb; // directory bullshit
+    // TODO: Delete thumbs and originals
+  }    
 
-	if ($imgtag):
-	    return '<img src="' . $image_thumb . '" />';
-	else:
-		return $image_thumb;
-	endif;
+	if ($imgtag) {
+    return '<img src="'.$thumb_s3_path.'" />';
+	} else {
+    return $thumb_s3_path;
+  }
 }
-
-/* End of file thumb_helper.php */
-/* Location: ./application/helpers/thumb_helper.php */

@@ -21,10 +21,8 @@
  
  header("Cache-Control: no-cache");
  
- ////////// KEEP VARNISH FROM CACHING
- 
- 
-if ($_SERVER['HTTP_HOST'] == 'sonar.local') {
+// Temporarily
+if ($_SERVER['SERVER_NAME'] == 'sonar.local') {
 	define('ENVIRONMENT', 'development');
 } else {
 	define('ENVIRONMENT', 'production');
