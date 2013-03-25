@@ -31,7 +31,7 @@ The app is currently deployed on AppFog. Deploy using the af gem.
 Maintainers
 ===========
 
-- Max Jennings '14 (2012 - present)
+- Max Jennings '15 (2012 - present)
 - Jeff Carpenter '12 (2009 - present)
 - Katherine Smith '12 (2011 - 2012)
 - Julia Essenburg '11 (2008 - 2010)
