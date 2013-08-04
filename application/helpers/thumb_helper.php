@@ -4,8 +4,11 @@ Modified extensively from:
 http://jrtashjian.com/2009/02/image-thumbnail-creation-caching-with-codeigniter/ 
 */
 
-function thumb($photo_ID, $width, $imgtag = true)
-{
+function thumb($photo_ID, $width, $imgtag = true) {
+
+    // Return nothing until I get this worked out. 
+    return "";
+
   // Get the CodeIgniter super object
   $CI =& get_instance();
   $CI->load->model('photo');
@@ -52,8 +55,8 @@ function thumb($photo_ID, $width, $imgtag = true)
   }    
 
 	if ($imgtag) {
-    return '<img src="'.$thumb_s3_path.'" />';
+        return '<img src="'.$thumb_s3_path.'" />';
 	} else {
-    return $thumb_s3_path;
-  }
+        return $thumb_s3_path;
+    }
 }
