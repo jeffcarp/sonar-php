@@ -2,100 +2,108 @@
 	
 	<div class="section">
 		<div class="editor-in-chief staff">
-			<a href="/people/sarah-lyon" class="blue">Sarah Lyon</a>
+			<a href="/people/julianna-haubner" class="blue">Julianna Haubner</a>
 			<p>Editor-in-Chief</p>
 		</div>	
 		<div class="editor-in-chief staff">
-			<a href="/people/madeline-strachota" class="blue">Madeline Strachota</a>
-			<p>Managing Editor</p>
+			<a href="/people/timothy-badmington" class="blue">Timothy Badmington</a>
+			<p>Editor-in-Cheif</p>
 		</div>
 	</div>
 	
 	<div class="section">
 	
 		<div class="editor staff">
-			<a href="/people/alice-anamosa" class="blue">Alice Anamosa</a>
-			<p>Photo Editor</p>
+			<a href="/people/felix-baldauf-lenschen" class="blue">Felix Baldauf-Lenschen</a>
+			<p>Business Manager</p>
 		</div>	
 		<div class="editor staff">
-			<a href="/people/amelia-hambers" class="blue">Amelia Chambers</a>
-			<p>Illustrator</p>
+			<a href="/people/sara-kaplan" class="blue">Sara Kaplan</a>
+			<p>Advertising Manager</p>
 		</div>
 		<div class="editor staff">
-			<a href="/people/cara-gaynor" class="blue">Cara Gaynor</a>
-			<p>Copy Editor</p>
-		</div>
-		<div class="editor staff">
-			<a href="/people/claire-dickson" class="blue">Claire Dickson</a>
-			<p>Layout Editor</p>
-		</div>	
-		<div class="editor staff">
-			<a href="/people/dan-sunderland" class="blue">Dan Sunderland</a>
+			<a href="/people/sam-leblanc" class="blue">Sam LeBlanc</a>
 			<p>News Editor</p>
 		</div>
 		<div class="editor staff">
-			<a href="/people/danielle-daitch" class="blue">Danielle Daitch</a>
-			<p>Forum Editor</p>
-		</div>
-		<div class="editor staff">
-			<a href="/people/david-dinicola" class="blue">David DiNicola</a>
-			<p>Layout Editor</p>
-		</div>
-		<div class="editor staff">
-			<a href="/people/eliza-childs" class="blue">Eliza Childs</a>
-			<p>Layout Editor</p>
+			<a href="/people/griffin-metto" class="blue">Griffin Metto</a>
+			<p>Assistant News Editor</p>
 		</div>	
 		<div class="editor staff">
-			<a href="/people/esther-king" class="blue">Esther King</a>
+			<a href="/people/thomas-attal" class="blue">Thomas Attal</a>
+			<p>Sports Editor</p>
+		</div>
+		<div class="editor staff">
+			<a href="/people/peter-cronkite" class="blue">Peter Cronkite</a>
+			<p>Assistant Sports Editor</p>
+		</div>
+		<div class="editor staff">
+			<a href="/people/nick-merrill" class="blue">Nick Merrill</a>
+			<p>Opinions Editor</p>
+		</div>
+		<div class="editor staff">
+			<a href="/people/grace-baldwin" class="blue">Grace Baldwin</a>
 			<p>Features Editor</p>
 		</div>	
 		<div class="editor staff">
-			<a href="/prople/julianna-haubner" class="blue">Julianna Haubner</a>
+			<a href="/people/david-dinicola" class="blue">David DiNicola</a>
 			<p>Arts and Entertainment Editor</p>
+		</div>	
+		<div class="editor staff">
+			<a href="/prople/sarah-barrese" class="blue">Sarah Barrese</a>
+			<p>Local News Editor</p>
 		</div>	
 		<div class="editor staff">
 			<a href="/people/max-jennings" class="blue">Max Jennings</a>
 			<p>Tech Editor</p>
 		</div>	
 		<div class="editor staff">
-			<a href="/people/mckenzie-love" class="blue">Mckenzie Love</a>
+			<a href="/people/matt-lara" class="blue">Matt Lara</a>
+			<p>Forum Editor</p>
+		</div>	
+		<div class="editor staff">
+			<a href="/people/alice-anamosa" class="blue">Alice Anamosa</a>
+			<p>Photo Editor</p>
+		</div>	
+		<div class="editor staff">
+			<a href="/people/winslow-mccurdy" class="blue">Winslow McCurdy</a>
+			<p>Photo Editor</p>
+		</div>	
+		<div class="editor staff">
+			<a href="/people/angelica-crites" class="blue">Angelica Crites</a>
+			<p>Photo Editor</p>
+		</div>
+		<div class="editor staff">
+			<a href="/people/carli-jaff" class="blue">Carli Jaff</a>
 			<p>Copy Editor</p>
-		</div>	
-		<div class="editor staff">
-			<a href="/people/michael-langley" class="blue">Michael Langley</a>
-			<p>Opinion Editor</p>
-		</div>	
-		<div class="editor staff">
-			<a href="/people/noah-kopp" class="blue">Noah Kopp</a>
-			<p>Photo Editor</p>
-		</div>	
-		<div class="editor staff">
-			<a href="/people/sam-leblanc" class="blue">Sam LeBlanc</a>
-			<p>News Editor</p>
 		</div>
 		<div class="editor staff">
-			<a href="/people/sarah-barrese" class="blue">Sarah Barrese</a>
-			<p>Local News Editor</p>
+			<a href="/people/quinn-ziegler" class="blue">Quinn Ziegler</a>
+			<p>Copy Editor</p>
 		</div>
 		<div class="editor staff">
-			<a href="/people/sophie-barnett" class="blue">Sophie Barnett</a>
-			<p>Blog Editor</p>
+			<a href="/people/claire-dickson" class="blue">Claire Dickson</a>
+			<p>Layout Editor</p>
 		</div>
 		<div class="editor staff">
-			<a href="/people/dana-merk-wynne" class="blue">Dana Merk-Wynne</a>
-			<p>Blog Editor</p>
-		</div>		
+			<a href="/people/meghna-diwan" class="blue">Meghna Diwan</a>
+			<p>Layout Editor</p>
+		</div>
 		<div class="editor staff">
-			<a href="/people/thomas-attal" class="blue">Thomas Attal</a>
-			<p>Sports Editor</p>
+			<a href="/people/pete-schow" class="blue">Pete Schow</a>
+			<p>Distribution Manager</p>
 		</div>	
 		<div class="editor staff">
-			<a href="/people/tim-badmington" class="blue">Tim Badmington</a>
-			<p>Sports Editor</p>
+			<a href="/people/peter-brophy" class="blue">Peter Brophy</a>
+			<p>Distribution Manager</p>
 		</div>
 		<div class="editor staff">
-			<a href="/people/weiming-huang" class="blue">Weiming Huang</a>
-			<p>Photo Editor</p>
+			<a href="/people/dana-merk-wynne " class="blue">Dana Merk-Wynne</a>
+			<p>Social Media Manager</p>
+		</div>
+		<div class="editor staff">
+			<a href="/people/jordan-gowen" class="blue">Jordan Gowen</a>
+			<p>Illustrator</p>
 		</div>
 	</div>
 </div>
