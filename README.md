@@ -21,15 +21,15 @@ State of Development
 
 Current projects:
 
-- Moving images to S3
+- Fixing image and moving to S3
 
 Production
 ==========
 
 The app is currently deployed on AppFog. Deploy using the af gem.
 
-Maintainers
-===========
+Contributors
+============
 
 - Max Jennings '15 (2012 - present)
 - Jeff Carpenter '12 (2009 - present)
