@@ -3,7 +3,6 @@
 	<aside class="cage-east">
 		<?
 		$this->load->view('structures/sidebars/blog');
-		$this->load->view('structures/sidebars/3-7ad');
 		$this->load->view('frontpage/_opinion');
 		$this->load->view('structures/social/twitter_timeline');
 		$this->load->view('structures/sidebars/about');
